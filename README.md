@@ -20,7 +20,7 @@ A starter repo for the ACA Advanced `My First Web Server` project.
 
 ## Part 3. Add the body-parser module to your project
 * Give your server the ability to handle a POST request with a path "/users" and add the data from the client to the users array
-* Assign an id property to the user object that is a number that increments by 1 each time.
+* Assign an _id property to the user object that is a number that increments by 1 each time.
 * response.json() the user object to send it back to the client. (if you do another GET request you should see this added)
 
 ## Part 4. Use path variables
