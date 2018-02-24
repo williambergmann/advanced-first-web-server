@@ -24,5 +24,8 @@ A starter repo for the ACA Advanced `My First Web Server` project.
 * response.json() the user object to send it back to the client. (if you do another GET request you should see this added)
 
 ## Part 4. Use path variables
+* Give your server the ability to respond to a GET request with a path `/users/:userId` and return the user object from the users array that has the _id = userId
+* Give your server the ability to respond to a PUT request with a path `/users/:userId` and just change any key value on the user object with this _id 
+* Give your server the ability to respond to a DELETE request with a path `/users/:userId` and find the user with this id from the array. give this user object a new key value isActive:false.  send() back a messsage "deleted"
 
 
