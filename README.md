@@ -2,6 +2,8 @@
 
 A starter repo for the ACA Advanced `My First Web Server` project.
 
+## On Windows machines, make sure you remove the single quotes from the package.json start script
+
 ## Part 1.
 * Give your server the ability to respond to a GET request with a path "/users" and return the users array from state.js
 * Give your server the ability to respond to a GET request with a path "/users/1" and return the first user object from the users array from state.js
